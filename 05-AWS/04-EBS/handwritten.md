@@ -15,9 +15,10 @@ EFS is region specific service
 EBS provides bootable drive
 EFS does not provide bootable drive
 
-EBS -- > port no -- > no
+EBS -- > port no -- > no port 
 EFS -- > 2049 --- > NFS (network file system)
-**purpose**
+
+purpose
 EBS -- > To increase storage
 EFS -- > To sync multiple directoreies which are
 ----------------------------------------------------
