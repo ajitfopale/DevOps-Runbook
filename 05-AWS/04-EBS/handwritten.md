@@ -1,4 +1,4 @@
-EBS & EFS
+**EBS & EFS**
 
 EBS stands for elastic block store
 I EFS stands for elastic file system
@@ -17,3 +17,5 @@ EFS does not provide bootable drive
 
 EBS -- > port no -- > no
 EFS -- > 2049 --- > NFS (network file system)
+
+----------------------------------------------------
