@@ -1,27 +1,27 @@
 **EBS & EFS**
 
-EBS stands for elastic block store
-I EFS stands for elastic file system
+-EBS stands for elastic block store
+- EFS stands for elastic file system
 
-EBS stores data as block
-EFS stores data as file
+-EBS stores data as block
+-EFS stores data as file
 
-EBS supports both Linux & Windows OS
-EFS supports only Linux OS
+-EBS supports both Linux & Windows OS
+-EFS supports only Linux OS
 
-EBS is zone specific service
-EFS is region specific service
+-EBS is zone specific service
+-EFS is region specific service
 
-EBS provides bootable drive
-EFS does not provide bootable drive
+-EBS provides bootable drive
+-EFS does not provide bootable drive
 
-EBS -- > port no -- > no port 
-EFS -- > 2049 --- > NFS (network file system)
+-EBS -- > port no -- > no port 
+-EFS -- > 2049 --- > NFS (network file system)
 
-purpose
-EBS - To increase storage
-EFS -To sync multiple directoreies which are
-----------------------------------------------------
+-purpose
+-EBS - To increase storage
+-EFS -To sync multiple directoreies which are
+-----------------------------------------------------
 
 >step 1)
 create SG -- > 22 & 2049
