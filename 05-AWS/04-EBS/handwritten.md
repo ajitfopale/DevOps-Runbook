@@ -17,5 +17,20 @@ EFS does not provide bootable drive
 
 EBS -- > port no -- > no
 EFS -- > 2049 --- > NFS (network file system)
-
+**purpose**
+EBS -- > To increase storage
+EFS -- > To sync multiple directoreies which are
 ----------------------------------------------------
+
+>step 1)
+create SG -- > 22 & 2049
+
+>step 2)
+create 2 instances
+
+>step 3)
+connect -- > 2 instances
+
+>step 4)
+EFS service -- > create file system -- > cmd
+
